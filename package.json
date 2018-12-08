@@ -10,11 +10,11 @@
   "scripts": {
     "start:reason": "bsb -make-world -w",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "bsb -make-world && react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "bs-platform": "^2.1.0"
+    "bs-platform": "^2.2.3"
   }
 }
