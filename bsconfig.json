@@ -12,7 +12,8 @@
     "in-source": true
   },
   "suffix": ".bs.js",
-  "bs-dependencies": [],
+  "reason": { "react-jsx": 2 },
+  "bs-dependencies": ["reason-react"],
   "namespace": true,
   "refmt": 3
 }

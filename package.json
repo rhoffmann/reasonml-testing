@@ -5,7 +5,8 @@
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.0.17"
+    "react-scripts": "^2.1.1",
+    "reason-react": "^0.5.1"
   },
   "scripts": {
     "start:reason": "bsb -make-world -w",
@@ -15,6 +16,12 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "bs-platform": "^2.2.3"
-  }
+    "bs-platform": "^4.0.8"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
