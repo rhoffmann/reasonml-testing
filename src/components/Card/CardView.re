@@ -11,13 +11,4 @@ let make = (~code, ~imageSource, ~flipped, ~onClick, _children) => {
     </div>
 };
 
-let default =
-  ReasonReact.wrapReasonForJs(~component, jsProps =>
-    make(
-      ~code=jsProps##code,
-      ~imageSource=jsProps##imageSource,
-      ~flipped=jsProps##flipped,
-      ~onClick=jsProps##onClick,
-      [||]
-    )
-);
+let default = make;
